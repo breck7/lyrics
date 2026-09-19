@@ -1,0 +1,40 @@
+italics.parsers
+buildHtml index.html
+title lyrics.breck.lol — lyrics i like
+description lyrics i like
+metaTags
+style.scroll
+
+a Skip to lyrics
+ class skip
+ href #entry
+
+header
+ class masthead
+ id top
+ a lyrics.breck.lol
+  class wordmark
+  href index.html
+  aria-label Lyrics home
+ span lyrics i like.
+  class tagline
+
+container 680px
+ class entry
+ id entry
+ role main
+header
+ class entry-header
+ h1 Forever Young
+ p Alphaville
+  class artist
+
+foreverYoung.scroll
+clearStack
+
+footer
+ class site-footer
+ a github
+  href https://github.com/breck7/lyrics
+ a Back to top ↑
+  href #top

@@ -1,0 +1,8 @@
+italicParagraphParser
+ extends pParagraphParser
+ cue ~~
+ description An italic paragraph.
+ javascript
+  get inlineStyles() {
+   return `${super.inlineStyles};font-style:italic;`
+  }
