@@ -1,0 +1,23 @@
+importOnly
+italics.parsers
+metaTags
+style.scroll
+
+a Skip to content
+ class skip
+ href #entry
+
+header
+ class masthead
+ id top
+ a lyrics.breck.lol
+  class wordmark
+  href index.html
+  aria-label Lyrics home
+ span lyrics i like.
+  class tagline
+
+container 680px
+ class entry
+ id entry
+ role main

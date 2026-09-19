@@ -26,3 +26,7 @@ css
  .skip:focus { top: 10px; }
  @media (max-width: 600px) { .masthead, main, .site-footer { width: calc(100% - 40px); } .masthead { padding-top: 25px; } .entry { padding: 55px 20px 64px; } h1 { letter-spacing: -2px; } .entry > p { font-size: 17px; line-height: 1.9; } .site-footer { font-size: 11px; } }
  @media print { body { background: white; } .skip, .site-footer { display: none; } .entry { padding: 30px 20px; }  }
+ .scrollColumns { columns: 1 !important; }
+ .scrollSnippetContainer { padding: 0 0 28px; margin-bottom: 28px; border-bottom: 1px solid var(--line); font: 16px/1.8 Georgia, serif; }
+ .scrollSnippetContainer a { font-size: 30px; }
+ .scrollSnippetContainer .subdued { color: var(--muted); font-size: 12px; }

@@ -1,0 +1,9 @@
+importOnly
+clearStack
+
+footer
+ class site-footer
+ a github
+  href https://github.com/breck7/lyrics
+ a Back to top ↑
+  href #top
